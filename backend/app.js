@@ -35,6 +35,6 @@ app.post('/api/summary/:id', async (req, res) => {
     }
 });
 
-app.listen(1000, () => {
+app.listen(process.env.PORT, () => {
     console.log("Server started on port 1000");
 });
